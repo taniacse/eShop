@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/crown"
+            android:title="Home" />
+
+
+
+
+
+    </group>
+    <item android:title="DashBoard">
+
+        <menu>
+            <item
+                android:id="@+id/men"
+                app:srcCompat="@mipmap/ic_launcher"
+                android:title="Men" />
+            <item
+                android:id="@+id/Women"
+                android:icon="@drawable/womant"
+                android:title="Women" />
+            <item
+                android:id="@+id/Kids"
+                android:icon="@drawable/smilinggirl"
+                android:title="Kids" />
+            <item
+                android:id="@+id/accessories"
+                android:icon="@drawable/houses"
+                android:title="Accessories" />
+            <item
+                android:id="@+id/Beauty"
+                android:icon="@drawable/smilinggirl"
+                android:title="Beauty" />
+
+        </menu>
+    </item>
+    <item android:title="MyAccount">
+        <menu>
+            <item
+                android:id="@+id/Profile"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Profile" />
+            <item
+                android:id="@+id/AccountDetails"
+                android:icon="@drawable/ic_menu_send"
+                android:title="AccountDetails" />
+            <item
+                android:id="@+id/TrackOrder"
+                android:icon="@drawable/ic_menu_share"
+                android:title="TrackOrder " />
+            <item
+                android:id="@+id/Logout"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Logout" />
+
+        </menu>
+    </item>
+    <item android:title="Support">
+        <menu>
+            <item
+                android:id="@+id/Feedback"
+                android:icon="@drawable/handshakes"
+                android:title="FeedBack" />
+            <item
+                android:id="@+id/RateThisApp"
+                android:icon="@drawable/handshakes"
+                android:title="Rate This App" />
+            <item
+                android:id="@+id/ContactUs"
+                android:icon="@drawable/earnings"
+                android:title="Contact Us" />
+            <item
+                android:id="@+id/AboutUs"
+                android:icon="@drawable/handshakes"
+                android:title="About Us" />
+            <item
+                android:id="@+id/Faq"
+                android:icon="@drawable/handshakes"
+                android:title="FAQ" />
+            <item
+                android:id="@+id/Terms"
+                android:icon="@drawable/earnings"
+                android:title="Terms and Condition" />
+
+        </menu>
+    </item>
+</menu>

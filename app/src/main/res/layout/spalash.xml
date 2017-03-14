@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+
+    >
+
+
+
+    <!--<TextView-->
+        <!--android:text="Welcome to the Smart Enterprise"-->
+        <!--android:textStyle="bold"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/textView2"-->
+        <!--android:textSize="19sp"-->
+        <!--android:layout_marginTop="25dp"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_centerHorizontal="true" />-->
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="65dp"
+        android:layout_height="64dp"
+        android:id="@+id/progressBar"
+        android:max="48"
+        android:progress="1"
+        android:progressDrawable="@drawable/circuler"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginRight="144dp"
+        android:layout_marginEnd="144dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="19dp" />
+
+    <TextView
+        android:text="EveryThing You Need To Like Good"
+        android:textColor="#f45942"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_width="wrap_content"
+        android:layout_height= "wrap_content"
+        android:layout_marginBottom="60dp"
+        android:id="@+id/textView"
+        android:layout_above="@+id/progressBar"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+
+        android:layout_height="250dp"
+        android:id="@+id/imageView"
+        android:src ="@drawable/news"
+        android:layout_marginTop="69dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
